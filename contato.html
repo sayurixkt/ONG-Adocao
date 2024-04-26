@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adote um Doguinho!</title>
+    <link rel="stylesheet" href="./contato.css">
+</head>
+
+<body>
+    <header>
+        <h1>Adote um doguinho!</h1>
+        <p>Ficou interessado em um cachorrinho? Entre em contato conosco e retornaremos o mais breve possível!</p>
+    </header>
+    <nav>
+        <ul>
+            <li class="list"><a href="./index.html">Início</a></li>
+            <li class="list"><a href="./contato.html">Contato</a></li>
+        </ul>
+    </nav>
+    <br>
+    <main>
+        <form>
+            <fieldset>
+                <legend class="leg">Informações Pessoais</legend>
+                <div class="qs">
+                    Nome Completo: <br>
+                    <input type="text" name="nome" required="Campo Obrigatótio"><br><br>
+                    Idade: <br>
+                    <input type="number" name="idade" required="Campo Obrigatótio"><br><br>
+                    Estado Civil: <br>
+                    <input type="text" name="EC" required="Campo Obrigatótio"><br><br>
+                    Telefone: <br>
+                    <input type="tel" name="telef" required="Campo Obrigatótio">
+                </div>
+
+
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend class="leg">Questionário</legend>
+                <div class="qs">
+                    Você mora em casa ou apartamento? <br>
+                    <input type="radio" name="q1"> Casa <br>
+                    <input type="radio" name="q1"> Apartamento <br><br>
+                    Você tem certeza que animais são permitidos no seu imóvel? <br>
+                    <input type="radio" name="q2"> Sim <br>
+                    <input type="radio" name="q2"> Não <br><br>
+                    Qual cachorro você gostaria de adotar? <br>
+                    <input type="radio" name="q3"> Sammy <br>
+                    <input type="radio" name="q3">Rivaldo <br>
+                    <input type="radio" name="q3">Ronaldo <br>
+                    <input type="radio" name="q3">Cleberson <br>
+                    <input type="radio" name="q3">Lila <br>
+                </div>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend class="leg">Por que gostaria de adotar um cachorro?</legend>
+                <div class="qs">
+                    <textarea name="answer" id="" cols="41" rows="13" required="Campo Obrigatótio"></textarea>
+                </div>
+            </fieldset>
+            <br>
+                <button type="submit"
+                    onclick="alert('A ONG Adote um doguinho! agradece o seu contato. Retornaremos o mais breve possível.')"
+                    class="botao">Enviar</button>
+
+        </form>
+    </main>
+    <br>
+    <footer>
+        23/04/2023 <br>
+        Sayuri Kobayashi Taveira <br>
+        RGM: 33835331 <br>
+        Ciência da Computação
+    </footer>
+</body>
+
+</html>
